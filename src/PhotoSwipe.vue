@@ -91,7 +91,7 @@
                         const rect = thumbnail.getBoundingClientRect()
                         return {
                             x: rect.left,
-                            y: rect.top + pageYScroll,
+                            y: rect.top,
                             w: rect.width
                         }
                     }
